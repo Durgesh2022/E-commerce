@@ -1,3 +1,27 @@
+# FashionFinds
+
+FashionFinds is an e-commerce platform designed to provide users with a seamless shopping experience for the latest fashion trends. Our site offers a wide variety of clothing, accessories, and footwear from various brands.
+
+## Features
+
+- **User Authentication**: Secure login and registration using JWT tokens.
+- **Product Browsing**: Easily navigate through categories and search for products.
+- **Shopping Cart**: Add, remove, and update products in your shopping cart.
+- **Stripe Integration**: Secure checkout process with Stripe for payment processing.
+- **User Profiles**: View and edit user profiles with order history.
+- **Responsive Design**: Fully responsive design for optimal viewing on all devices.
+- **Admin Panel**: Manage products, orders, and users with an admin interface.
+
+## Technologies Used
+
+- **Frontend**: React, Next.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB, Firebase
+- **Payment Gateway**: Stripe
+- **Authentication**: JSON Web Tokens (JWT)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
