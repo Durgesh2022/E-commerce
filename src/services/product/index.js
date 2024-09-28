@@ -25,7 +25,7 @@ export const getAllAdminProducts = async () => {
   try {
     const res = await fetch("/api/admin/all-products", {
       method: "GET",
-      cache: "no-store",
+      
     });
 
     const data = await res.json();
@@ -44,7 +44,7 @@ export const updateAProduct = async (formData) => {
         "content-type": "application/json",
         Authorization: `Bearer ${Cookies.get("token")}`,
       },
-      cache: "no-store",
+  
       body: JSON.stringify(formData),
     });
 
@@ -79,7 +79,7 @@ export const productByCategory = async (id) => {
       `/api/admin/product-by-category?id=${id}`,
       {
         method: "GET",
-        cache: "no-store",
+      
       }
     );
 
@@ -97,7 +97,7 @@ export const productById = async (id) => {
       `/api/admin/product-by-id?id=${id}`,
       {
         method: "GET",
-        cache: "no-store",
+      
       }
     );
 
